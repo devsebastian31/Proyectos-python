@@ -1,0 +1,9 @@
+Este script te sera muy util para ordenar tus archivos
+
+Para el uso tienes que editar el script, poner la ubicacion de la carpeta para ordenar archivos:
+
+if __name__ == "__main__":
+    path = r"C:\Users\USUARIO\Desktop\xd"
+    #Aqui la ubicacion de la carpeta donde estan los archivos para ordenar
+    verbose = 0
+    for extension, folder_name in extensions.items():
